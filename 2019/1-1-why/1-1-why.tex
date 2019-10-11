@@ -1,0 +1,39 @@
+% 1-1-why.tex
+
+%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, justified]{tufte-handout}
+
+\input{hw-preamble} % feel free to modify this file
+%%%%%%%%%%%%%%%%%%%%
+\title{第1讲: 为什么计算机能解题?}
+\me{魏恒峰}{hfwei@nju.edu.cn}{}{}
+\date{\zhtoday} % or like 2019年9月13日
+%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%
+\noplagiarism % always keep this line
+%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+  \mfig{width = 0.60\linewidth}{figs/recursion-mirror}
+  \begin{center}{\fcolorbox{blue}{yellow!60}{\parbox{0.50\textwidth}{\large 
+    \begin{itemize}
+      \item 体会``思维的乐趣''
+      \item 初步了解递归与数学归纳法 
+      \item 初步接触算法概念与问题下界概念
+    \end{itemize}}}}
+  \end{center}
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%
+\beginrequired
+
+\input{problems/divide}
+\input{problems/lighter-coin}
+\input{problems/lighter-coin-lower-bound}
+\input{problems/12coins}
+%%%%%%%%%%%%%%%%%%%%
+\beginoptional
+
+\input{problems/labelled-coin}
+%%%%%%%%%%%%%%%%%%%%
+\end{document}
